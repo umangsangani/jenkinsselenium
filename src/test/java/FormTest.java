@@ -32,7 +32,7 @@ public class FormTest {
 
         try {
             // Navigate to the application
-            driver.get(System.getProperty("base.url", "http://localhost"));
+            driver.get(System.getProperty("base.url", "http://34.72.83.173"));
 
             // Use WebDriverWait to handle dynamic elements
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
